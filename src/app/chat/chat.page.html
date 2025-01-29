@@ -20,10 +20,11 @@
 <ion-content [fullscreen]="true">
   <ion-list>
     <app-item-chat 
-    username="Emmanuel"
-    massage="Dice mi mama que pongas papa a serenar para la alopecia"
-    date="01:28"
-    avatarURL="https://ionicframework.com/docs/img/demos/avatar.svg"
+    *ngFor="let bodoque of messages"
+      [username]="bodoque.username"
+      [message]="bodoque.message"
+      [date]="bodoque.date"
+      [avatarURL]="bodoque.avatarURL">
     ></app-item-chat>
   </ion-list>
 </ion-content>

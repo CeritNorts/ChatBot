@@ -1,0 +1,26 @@
+$whatsapp-green: #25D366;
+$whatsapp-light-green: #DCF8C6;
+$whatsapp-dark-green: #128C7E;
+$whatsapp-blue: #34B7F1;
+$whatsapp-light-gray: #ECE5DD;
+$whatsapp-dark-gray: #3C3C3C;
+
+body {
+    background-color: $whatsapp-light-gray;
+    color: $whatsapp-dark-gray;
+}
+
+.header {
+    background-color: $whatsapp-green;
+    color: white;
+}
+
+.chat-bubble {
+    background-color: $whatsapp-light-green;
+    color: $whatsapp-dark-gray;
+}
+
+.send-button {
+    background-color: $whatsapp-blue;
+    color: white;
+}

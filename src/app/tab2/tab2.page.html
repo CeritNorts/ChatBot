@@ -20,7 +20,7 @@
     <app-item-chat
     *ngFor="let estados of estados"
       [username]="estados.username"
-      [date]="estados.date"
+      [message]="estados.message"
       [avatarURL]="estados.avatarURL"></app-item-chat>
   </ion-list>
   <ion-title class="ion-padding">Recientes</ion-title>
@@ -28,7 +28,7 @@
     <app-item-chat
     *ngFor="let estados of estados2"
       [username]="estados.username"
-      [date]="estados.date"
+      [message]="estados.message"
       [avatarURL]="estados.avatarURL"></app-item-chat>
   </ion-list>
   
@@ -37,7 +37,7 @@
     <app-item-chat
     *ngFor="let estados of estados3"
       [username]="estados.username"
-      [date]="estados.date"
+      [message]="estados.message"
       [avatarURL]="estados.avatarURL"></app-item-chat>
   </ion-list>
 </ion-content >

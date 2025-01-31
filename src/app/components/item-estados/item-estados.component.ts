@@ -9,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ItemEstadosComponent  implements OnInit {
 
   @Input() username: string = '';
-  @Input() date: string = '';
+  @Input() message: string = '';
   @Input() avatarURL: string = '';
 
   constructor() { }

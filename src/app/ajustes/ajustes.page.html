@@ -1,0 +1,74 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+    </ion-buttons>
+    <ion-title>Ajustes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-avatar aria-hidden="true" slot="start">
+      <img alt="" src='https://picsum.photos/200/200?random=4' />
+    </ion-avatar>
+    <ion-label>
+      <strong>CeritNorts</strong>
+      <br />
+      <ion-note color="medium" class="ion-text-wrap">I just want to start a ft..</ion-note>
+    </ion-label>
+    <div class="metadata-end-wrapper" slot="end">
+      <ion-icon name="qr-code-outline" class="ion-margin-end" color="success"></ion-icon>
+      <ion-icon name="add-circle-outline" class="ion-margin-end"color="success"></ion-icon>
+      <ion-icon color="medium" name="chevron-forward"></ion-icon>
+    </div>
+  </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="link-outline"></ion-icon>
+      <ion-label>Cuenta</ion-label> 
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="notifications-outline"></ion-icon>
+      <ion-label>Privacidad</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="man-outline" slot="start"></ion-icon>
+      <ion-label>Avatar</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="albums-outline" slot="start"></ion-icon>
+      <ion-label>Listas</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="chatbox-ellipses-outline"></ion-icon>
+      <ion-label>Chats</ion-label> 
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="notifications-outline"></ion-icon>
+      <ion-label>Notificaciones</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="aperture-outline" slot="start"></ion-icon>
+      <ion-label>Almacenamiento y Datos</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="earth-outline" slot="start"></ion-icon>
+      <ion-label>Idioma de la aplicacion</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="help-circle-outline"></ion-icon>
+      <ion-label>Ayuda</ion-label>
+      <ion-icon slot="end" name="chevron-forward"></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="earth-outline" slot="start"></ion-icon>
+      <ion-label>Invitar Amigos</ion-label>
+    </ion-item>
+</ion-content>
